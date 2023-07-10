@@ -1,44 +1,88 @@
 @charset "utf-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-body{
-    background-image: linear-gradient(160deg,#fccf31,#f55555);
-    height: 100vh;
-}
-nav{
+@media (max-width: 700px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-image: linear-gradient(160deg,#fccf31,#f55555);
+        height: 100vh;
+    }
+    nav{
+    
+        float: right;
+        display: inline-block;
+        margin-top: 70px;
+        margin-right: 50px;
+    }
+    nav a{
+        padding: 10px;
+        color: black;
+        font-size: 1.5em;
+        text-decoration: none;
+    }
 
-    float: right;
-    display: inline-block;
-    margin-top: 70px;
-    margin-right: 50px;
-}
-nav a{
-    padding: 10px;
-    color: black;
-    font-size: 1.5em;
-    text-decoration: none;
-}
-#mussarela{
-    margin-top: 50px;
-    transform: translate(50%, -50%);
-    display: inline-block;
+    header{
+        display: flex;
+    }
 
-}
-#logo{
-    width: 150px;
-    display: inline-block;
-}
-#imghorizontal{
-    width: 100%;
-    height: 150px;
-}
-#promçao{
-    border-radius: 20px;
-    display: flex;
-    float: right;
-    margin-right: 25px;
-}
+    p{
+        color: aliceblue;
+        font-size: 20px;
+        display: none;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
 
+    /* .img{
+        position: relative;
+    } */
+
+    .agua1{
+        position: relative;
+    }
+
+    .agua2{
+        position: relative;
+    }
+    
+    .cards{
+        display: flex;
+        gap: 1em;
+        position: relative;
+        /* margin-left: 1em; */
+    }
+
+    #mussarela{
+        margin-top: 50px;
+        transform: translate(50%, -50%);
+        display: inline-block;
+    
+    }
+    #logo{
+        width: 120px;
+        height: 100px;
+        /* display: inline-block; */
+    }
+    #imghorizontal{
+        width: 100%;
+        height: 150px;
+    }
+
+    #imghorizontal:start{
+
+    }
+    #promoçao{
+        height: 12em;
+        width: 10em;
+
+        border-radius: 20px;
+        /* display: flex; */
+        /* float: right; */
+        /* margin-right: 25px; */
+
+    }
+}
