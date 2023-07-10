@@ -21,7 +21,12 @@ nav a{
     font-size: 1.5em;
     text-decoration: none;
 }
+#mussarela{
+    margin-top: 50px;
+    transform: translate(50%, -50%);
+    display: inline-block;
 
+}
 #logo{
     width: 150px;
     display: inline-block;
@@ -34,6 +39,6 @@ nav a{
     border-radius: 20px;
     display: flex;
     float: right;
-    padding-right: 25px;
+    margin-right: 25px;
 }
 
