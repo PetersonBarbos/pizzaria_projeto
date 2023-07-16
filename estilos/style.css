@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-@media (max-width: 700px){
     * {
         margin: 0px;
         padding: 0px;
@@ -9,10 +8,11 @@
         background-image: linear-gradient(160deg,#fccf31,#f55555);
         height: 100vh;
     }
+    main{
+    }
     nav{
     
         float: right;
-        display: inline-block;
         margin-top: 70px;
         margin-right: 50px;
     }
@@ -24,7 +24,8 @@
     }
 
     header{
-        display: flex;
+       
+        background-image: linear-gradient(to top, #F77B0A,#FFE500);
     }
 
     p{
@@ -41,13 +42,8 @@
         position: relative;
     } */
 
-    .agua1{
-        position: relative;
-    }
-
-    .agua2{
-        position: relative;
-    }
+   
+ 
     
     .cards{
         display: flex;
@@ -72,17 +68,14 @@
         height: 150px;
     }
 
-    #imghorizontal:start{
-
-    }
     #promoçao{
         height: 12em;
         width: 10em;
-
+        
         border-radius: 20px;
         /* display: flex; */
         /* float: right; */
         /* margin-right: 25px; */
 
     }
-}
+
